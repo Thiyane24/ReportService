@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: ReportService
+
+server:
+  port: 8083
