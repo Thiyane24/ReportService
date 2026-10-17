@@ -24,7 +24,7 @@ Example response for `GET /api/reports/fast`:
 
 ## Run locally
 
-With Maven (port 8082):
+With Maven (port 8083):
 
 ```
 mvn spring-boot:run
@@ -34,14 +34,14 @@ With Docker:
 
 ```
 docker build -t reportservice .
-docker run -p 8082:8082 reportservice
+docker run -p 8083:8083 reportservice
 ```
 
 Test it:
 
 ```
-curl http://localhost:8082/api/reports/fast
-curl http://localhost:8082/api/reports/slow
+curl http://localhost:8083/api/reports/fast
+curl http://localhost:8083/api/reports/slow
 ```
 
 ## Deploy to Heroku (Docker)
