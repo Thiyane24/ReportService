@@ -1,4 +1,4 @@
-package controller;
+package com.first.reportservice.controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
